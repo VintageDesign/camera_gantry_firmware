@@ -1,3 +1,6 @@
 [submodule "main/servo_control"]
 	path = main/servo_control
 	url = git@github.com:VintageDesign/servo_control.git
+[submodule "components/motor_controllers"]
+	path = components/motor_controllers
+	url = git@github.com:VintageDesign/motor_controllers.git
