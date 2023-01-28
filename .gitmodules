@@ -1,0 +1,3 @@
+[submodule "main/servo_control"]
+	path = main/servo_control
+	url = git@github.com:VintageDesign/servo_control.git
