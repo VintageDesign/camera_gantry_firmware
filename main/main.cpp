@@ -12,9 +12,9 @@ extern "C" void app_main()
     servo.attach(23);
     while(true)
     {
-    servo.write(0);
-    vTaskDelay(1000/portTICK_PERIOD_MS);
-    servo.write(100);
+        servo.write(0);
+        vTaskDelay(1000/portTICK_PERIOD_MS);
+        servo.write(100);
         vTaskDelay(1000/portTICK_PERIOD_MS);
     }
 }
